@@ -1,41 +1,4 @@
-### proof that my functions work correctly -- output from R console
-
-> a <- matrix(1:4, 2, 2)
-> x <- makeCacheMatrix(a)
-> x
-$set
-function (y) 
-{
-    x <<- y
-    m <<- NULL
-}
-<environment: 0x08af6524>
-
-$get
-function () 
-x
-<environment: 0x08af6524>
-
-$setinv
-function (inv) 
-m <<- inv
-<environment: 0x08af6524>
-
-$getinv
-function () 
-m
-<environment: 0x08af6524>
-
-> cacheSolve(x)
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-
-
-
-
-
-
+### proof that my functions work correctly -- screenshot from R console : https://flic.kr/p/qLV5yc
 
 
 ### Introduction
